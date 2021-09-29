@@ -1,5 +1,5 @@
 
-import { omitBy } from 'lodash'
+import omitBy from 'lodash/omitBy'
 import prefix from 'inline-style-prefixer/static'
 
 export default ({ delay, duration, fillMode, iterationCount, name, timingFunction }) => {
